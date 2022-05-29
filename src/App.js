@@ -7,12 +7,12 @@ import HomePage from './components/HomePage';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path = '/' element = {<HomePage/>}/>
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   );
