@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter,Route,Routes} from 'react-router-dom';
+import {HashRouter as BrowserRouter,Route,Routes} from 'react-router-dom';
 import { useState,useRef} from 'react';
 import React from 'react';
 import HomePage from './components/HomePage';
